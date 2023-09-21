@@ -93,11 +93,11 @@
       1. Use json
       2. Add jsonwebtoken
       3. Test Using Postman
-Generate User Service
-Generate User model
-Add User Subject
-Add Login Method
-Add User Urls
+   3. Generate User Service
+      1. Generate User model
+      2. Add User Subject
+      3. Add Login Method
+         1. Add User Urls
 Generate IUserLogin interface
 Add ngx-toastr
 Import Module
