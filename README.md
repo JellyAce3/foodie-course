@@ -67,38 +67,33 @@
         1. Home Page
         2. Food Page
         3. Cart Page
-Connect To Backend
-
-Create backend folder
-npm init
-npm install typescript
-Create tsconfig.json
-Create .gitignore
-Copy data.ts to backend/src
-npm install express cors
-Create server.ts
-install @types
-Add Apis
-npm install nodemon ts-node --save-dev
-Add urs.ts to frontend
-Add HttpClient module
-Update food service
-Login Page
-
-Generate Component
-
-Add to routes
-Add ts
-Add html
-Import Reactive Forms Module
-Add Css
-Add Login Api
-
-Use json
-Add jsonwebtoken
-Test Using Postman
+11. Connect To Backend
+   1. Create backend folder
+   2. npm init
+   3. npm install typescript
+   4. Create tsconfig.json
+   5. Create .gitignore
+   6. Copy data.ts to backend/src
+   7. npm install express cors
+   8. Create server.ts
+      1. install @types
+      2. Add Apis
+   9. npm install nodemon ts-node --save-dev
+   10. Add urs.ts to frontend
+   11. Add HttpClient module
+   12.Update food service
+12. Login Page
+   1. Generate Component
+      1. Add to routes
+      2. Add ts
+      3. Add html
+         1. Import Reactive Forms Module
+      4. Add Css
+   2. Add Login Api
+      1. Use json
+      2. Add jsonwebtoken
+      3. Test Using Postman
 Generate User Service
-
 Generate User model
 Add User Subject
 Add Login Method
