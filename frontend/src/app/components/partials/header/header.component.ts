@@ -6,29 +6,27 @@ import { User } from 'src/app/shared/models/user';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  
-  cartQuantity=0;
-  user!:User
-  constructor(cartService:CartService, private userService:UserService){
-    cartService.getCartObservable().subscribe((newCart)=>{
+  cartQuantity = 0;
+  user!: User;
+  constructor(cartService: CartService, private userService: UserService) {
+    cartService.getCartObservable().subscribe((newCart) => {
       this.cartQuantity = newCart.totalCount;
-    })
+    });
 
-    userService.userobservable.subscribe((newUser) =>{
-        this.user = newUser;
-    })
+    userService.userobservable.subscribe((newUser) => {
+      this.user = newUser;
+    });
   }
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  logout(){
+  logout() {
     this.userService.logout();
   }
 
-  get isAuth(){
+  get isAuth() {
     return this.user.token;
   }
 }
