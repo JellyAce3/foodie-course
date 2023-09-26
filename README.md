@@ -98,6 +98,7 @@
       2. Add User Subject
       3. Add Login Method
          1. Add User Urls
+
 Generate IUserLogin interface
 Add ngx-toastr
 Import Module
@@ -107,13 +108,13 @@ Add to Header
 Add Local Storage methods
 Add Logout Method
 Add to Header
-Make Components For Login Page
 
-Input Container
-Input Validation
-Text Input
-Default Button
-Connect Login API To MongoDB Atlas
+13. Make Components For Login Page
+   1. Input Container
+   2. Input Validation
+   3. Text Input
+   4. Default Button
+14. Connect Login API To MongoDB Atlas
 
 Moving Apis into routers
 Create MongoDB Atlas

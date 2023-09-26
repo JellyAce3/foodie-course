@@ -1,9 +1,9 @@
 
-export const sample_foods: any[]= [
+export const sample_foods: any[] = [
   {
     id:'1',
     name: 'Pizza Pepperoni',
-    cooktime: '10~20',
+    cookTime: '10-20',
     price: 10,
     favorite: false,
     origins: ['italy'],
@@ -15,7 +15,7 @@ export const sample_foods: any[]= [
     id:'2',
     name: 'Meatball',
     price: 20,
-    cooktime: '20~30',
+    cookTime: '20-30',
     favorite: true,
     origins: ['persia', 'middle east', 'china'],
     stars: 4.7,
@@ -26,7 +26,7 @@ export const sample_foods: any[]= [
     id:'3',
     name: 'Hamburger',
     price: 5,
-    cooktime: '10~15',
+    cookTime: '10-15',
     favorite: false,
     origins: ['germany', 'us'],
     stars: 3.5,
@@ -37,7 +37,7 @@ export const sample_foods: any[]= [
     id:'4',
     name: 'Fried Potatoes',
     price: 2,
-    cooktime: '15~20',
+    cookTime: '15-20',
     favorite: true,
     origins: ['belgium', 'france'],
     stars: 3.3,
@@ -48,7 +48,7 @@ export const sample_foods: any[]= [
     id:'5',
     name: 'Chicken Soup',
     price: 11,
-    cooktime: '40~50',
+    cookTime: '40-50',
     favorite: false,
     origins: ['india', 'asia'],
     stars: 3.0,
@@ -59,7 +59,7 @@ export const sample_foods: any[]= [
     id:'6',
     name: 'Vegetables Pizza',
     price: 9,
-    cooktime: '40~50',
+    cookTime: '40-50',
     favorite: false,
     origins: ['italy'],
     stars: 4.0,
@@ -69,29 +69,29 @@ export const sample_foods: any[]= [
 ]
 
 export const sample_tags:any[] = [
-  {name:'All', count: 6},
-  {name:'FastFood', count: 4},
-  {name:'Pizza', count: 2},
-  {name:'Lunch', count: 3},
-  {name:'SlowFood', count: 2},
-  {name:'Hamburger', count: 1},
-  {name:'Fry', count: 1},
-  {name:'Soup', count: 1},
+  { name: 'All', count: 6 },
+  { name: 'FastFood', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Lunch', count: 3 },
+  { name: 'SlowFood', count: 2 },
+  { name: 'Hamburger', count: 1 },
+  { name: 'Fry', count: 1 },
+  { name: 'Soup', count: 1 },
 ]
 
-export const sample_users: any []=[
+export const sample_users: any[] = [
   {
-    name:"Lincoln Distrajo",
-    email:"lincolndistrajo@gmail.com",
-    password:"12345",
-    address:"Samar",
-    isAdmin:"true",
+    name: "Lincoln Distrajo",
+    email: "lincolndistrajo@gmail.com",
+    password: "12345",
+    address: "Samar",
+    isAdmin: true,
   },
   {
-    name:"Jelou Maceda",
+    name: "Jelou Maceda",
     email: "jeloumaceda@gmail.com",
-    password:"123456789",
-    address:"Samar",
+    password: "12345",
+    address: "Samar",
     isAdmin: false,
-  }
-]
+  },
+];
