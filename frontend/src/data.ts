@@ -37,11 +37,11 @@ export const sample_foods: Food[] = [
   },
   {
     id          : '4',
-    name        : 'Fried Potatoes',
+    name        : 'Chicken Nuggets',
     price       : 2,
     cooktime    : '15~20',
     favorite    : true,
-    origins     : ['belgium', 'france'],
+    origins     : ['us', 'france'],
     stars       : 3.3,
     imageUrl    : 'assets/food-4.jpg',
     tags        : ['FastFood', 'Fry'],

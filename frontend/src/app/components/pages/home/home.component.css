@@ -67,9 +67,9 @@ li a img {
   display           : inline-block;
   font-size         : 0.8rem;
   color             : grey;
-  margin-right      : 0.3;
-  padding           : 0 0.5rem;
-  margin-top        : 0.2rem;
+  padding           : 0 1rem;
+  margin            : 0.5rem 0.5rem 0.5rem 0;
+  
 }
 
 .cook-time {
